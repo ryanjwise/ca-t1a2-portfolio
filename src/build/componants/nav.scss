@@ -1,0 +1,38 @@
+nav {
+  ul {
+    display: flex;
+    margin: 0px 20px 10px 20px;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  li {
+    list-style: none;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    
+    a,
+    a:visited,
+    a:hover {
+        height: 100%;
+        width: 100%;
+        background-color: $colour-foreground;
+      display: block;
+      text-decoration: underline;
+      @include font-header;
+      color: $colour-background;
+      text-align: center;
+    }
+    a:hover {
+        background-color: $colour-hero;
+    }
+    a.active {
+      background-color: $colour-teritary;
+    }
+  }
+  hr {
+      color: $colour-foreground;
+      margin: 5px 10px;
+  }
+}

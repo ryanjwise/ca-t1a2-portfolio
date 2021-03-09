@@ -3,3 +3,12 @@ $colour-foreground: #47FF4E;
 $colour-teritary: #FFBA49;
 $colour-decoration: #808782;
 $colour-hero: #B8336A;
+
+
+// Typography
+@mixin font-header() {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bold;
+}

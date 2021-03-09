@@ -17,4 +17,43 @@ body {
   border-radius: 45px;
 }
 
+nav ul {
+  display: flex;
+  margin: 0px 20px 10px 20px;
+  padding: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav li {
+  list-style: none;
+  width: 100px;
+  height: 25px;
+  margin: 5px;
+}
+nav li a,
+nav li a:visited,
+nav li a:hover {
+  height: 100%;
+  width: 100%;
+  background-color: #47FF4E;
+  display: block;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333745;
+  text-align: center;
+}
+nav li a:hover {
+  background-color: #B8336A;
+}
+nav li a.active {
+  background-color: #FFBA49;
+}
+nav hr {
+  color: #47FF4E;
+  margin: 5px 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
