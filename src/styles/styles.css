@@ -45,9 +45,19 @@ body {
   color: #b8336a;
 }
 
+.nav-wrapper {
+  align-items: center;
+}
+.nav-wrapper .socials {
+  display: none;
+}
+
+nav {
+  padding: 0px 10px;
+}
 nav ul {
   display: flex;
-  margin: 0px 20px 10px 20px;
+  margin: 0px;
   padding: 0px;
   flex-wrap: wrap;
   justify-content: center;
@@ -80,6 +90,19 @@ nav li a.active {
   background-color: #ffba49;
 }
 
+@media screen and (min-width: 650px) {
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-wrapper .socials {
+    display: block;
+  }
+
+  nav ul {
+    justify-content: flex-start;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
