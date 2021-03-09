@@ -1,6 +1,18 @@
 hr {
-  color: #47FF4E;
+  color: #47ff4e;
   margin: 5px 10px;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #47ff4e;
+}
+body p {
+  text-transform: none;
+  font-variant: normal;
 }
 
 html {
@@ -17,8 +29,9 @@ body {
   margin: 0px;
   padding: 10px;
   min-height: 100%;
+  width: 100%;
   background-color: #333745;
-  border: 3px solid #47FF4E;
+  border: 3px solid #47ff4e;
   border-radius: 30px;
 }
 
@@ -40,7 +53,7 @@ nav li a:visited,
 nav li a:hover {
   height: 100%;
   width: 100%;
-  background-color: #47FF4E;
+  background-color: #47ff4e;
   display: block;
   text-decoration: underline;
   font-family: "Courier New", Courier, monospace;
@@ -51,10 +64,24 @@ nav li a:hover {
   text-align: center;
 }
 nav li a:hover {
-  background-color: #B8336A;
+  background-color: #b8336a;
 }
 nav li a.active {
-  background-color: #FFBA49;
+  background-color: #ffba49;
+}
+
+footer .footer-container {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  margin: 0px;
+  font-size: 12px;
+}
+footer i {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
