@@ -147,6 +147,10 @@ footer p {
     display: none;
   }
 }
+#about-me .intro {
+  height: calc($height-body - 112px);
+}
+
 .page-wrapper {
   min-height: calc(100vh - calc(23 * 2px));
   display: flex;
