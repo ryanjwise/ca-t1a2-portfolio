@@ -1,20 +1,29 @@
 $colour-background: #333745;
-$colour-foreground: #47FF4E;
-$colour-teritary: #FFBA49;
+$colour-foreground: #47ff4e;
+$colour-teritary: #ffba49;
 $colour-decoration: #808782;
-$colour-hero: #B8336A;
-
+$colour-hero: #b8336a;
 
 // Typography
 @mixin font-header() {
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: capitalize;
-    font-variant: small-caps;
-    font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 
 // Elements
 hr {
-    color: $colour-foreground;
-    margin: 5px 10px;
+  color: $colour-foreground;
+  margin: 5px 10px;
+}
+
+body {
+  @include font-header();
+  color: $colour-foreground;
+
+  p {
+    text-transform: none;
+    font-variant: normal;
+  }
 }
