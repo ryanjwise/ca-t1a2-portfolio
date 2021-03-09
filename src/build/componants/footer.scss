@@ -1,5 +1,6 @@
 footer {
   .footer-container {
+    min-height: 30px;
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
@@ -8,5 +9,14 @@ footer {
   p {
     margin: 0px;
     font-size: 12px;
+  }
+}
+
+//Toggle Socials off footer for larger screens
+@media screen and (min-width: 650px) {
+  .footer-container  {
+    .socials {
+      display: none;
+    }
   }
 }
