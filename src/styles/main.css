@@ -83,5 +83,11 @@ footer p {
 footer i {
   font-size: 30px;
 }
+footer a, footer a:visited {
+  color: #47ff4e;
+}
+footer a:hover {
+  color: #b8336a;
+}
 
 /*# sourceMappingURL=main.css.map */
