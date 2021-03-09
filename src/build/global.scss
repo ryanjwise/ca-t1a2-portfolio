@@ -1,3 +1,9 @@
+//Calculated Variables
+$height-margin: calc(23 * 2px);
+$height-body: calc(100vh - #{$height-margin});
+$height-main: calc($height-body - 112px);
+
+// Colours
 $colour-background: #333745;
 $colour-foreground: #47ff4e;
 $colour-teritary: #ffba49;

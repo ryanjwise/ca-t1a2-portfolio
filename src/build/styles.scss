@@ -1,15 +1,17 @@
+
+
 @import "global.scss";
 @import "componants/background.scss";
 @import "componants/socials.scss";
 @import "componants/header.scss";
 @import "componants/main.scss";
 @import "componants/footer.scss";
+@import "pages/about-me.scss";
 
 
 //Page Layout
-$height-margin: calc(23 * 2px);
 .page-wrapper {
-  min-height: calc(100vh - #{$height-margin});
+  min-height: $height-body;
   display: flex;
   flex-direction: column;
   align-items: stretch;
