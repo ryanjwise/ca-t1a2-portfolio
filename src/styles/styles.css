@@ -35,6 +35,16 @@ body {
   border-radius: 30px;
 }
 
+.socials i {
+  font-size: 30px;
+}
+.socials a, .socials a:visited {
+  color: #47ff4e;
+}
+.socials a:hover {
+  color: #b8336a;
+}
+
 nav ul {
   display: flex;
   margin: 0px 20px 10px 20px;
@@ -106,15 +116,6 @@ footer .footer-container {
 footer p {
   margin: 0px;
   font-size: 12px;
-}
-footer i {
-  font-size: 30px;
-}
-footer a, footer a:visited {
-  color: #47ff4e;
-}
-footer a:hover {
-  color: #b8336a;
 }
 
 .page-wrapper {
