@@ -12,3 +12,9 @@ $colour-hero: #B8336A;
     font-variant: small-caps;
     font-weight: bold;
 }
+
+// Elements
+hr {
+    color: $colour-foreground;
+    margin: 5px 10px;
+}
