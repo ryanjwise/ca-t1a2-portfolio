@@ -25,3 +25,10 @@
 			- etc
 		- /build
 			- Sass
+
+## To-Do
+
+- Make Header and footer fixed elements
+- make content height = screen height
+- Add Hover effect to Icons (Yellow?)
+- Animate Header
