@@ -133,8 +133,29 @@ main p, main.intro p, main.content p {
   text-align: center;
   display: inline-block;
 }
+main .content, main.intro .content, main.content .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .logo-array, main.intro .logo-array, main.content .logo-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .logo-array .logo-array-item, main.intro .logo-array .logo-array-item, main.content .logo-array .logo-array-item {
+  margin: 20px;
+}
+main .logo, main.intro .logo, main.content .logo {
+  margin: 0px;
+}
 main .logo img, main.intro .logo img, main.content .logo img {
   height: 50px;
+}
+main .logo-description, main.intro .logo-description, main.content .logo-description {
+  margin-top: 5px;
 }
 main .logo-description h3, main.intro .logo-description h3, main.content .logo-description h3 {
   font-variant: inherit;
@@ -157,19 +178,6 @@ footer p {
     display: none;
   }
 }
-#about-me .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#about-me .content .skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .page-wrapper {
   min-height: calc(100vh - calc(23 * 2px));
   display: flex;

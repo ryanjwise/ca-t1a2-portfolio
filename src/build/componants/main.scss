@@ -28,12 +28,31 @@ main, main.intro, main.content {
         text-align: center;
         display: inline-block;
     }
+    .intro {
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo-array {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        .logo-array-item {
+            margin: 20px;
+        }
+      }
     .logo {
+        margin: 0px;
         img {
             height: 50px;
         }
     }
     .logo-description {
+        margin-top: 5px;
         h3 {
             font-variant: inherit;
         }
