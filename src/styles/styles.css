@@ -103,31 +103,41 @@ nav li a.active {
     justify-content: flex-start;
   }
 }
-main {
+main, main.intro, main.content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main h1, main h2, main h3, main h4, main h5, main h6, main p {
+main h1, main h2, main h3, main h4, main h5, main h6, main p, main.intro h1, main.intro h2, main.intro h3, main.intro h4, main.intro h5, main.intro h6, main.intro p, main.content h1, main.content h2, main.content h3, main.content h4, main.content h5, main.content h6, main.content p {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-main h1, main h2, main h3, main h4, main h5, main h6 {
+main h1, main h2, main h3, main h4, main h5, main h6, main.intro h1, main.intro h2, main.intro h3, main.intro h4, main.intro h5, main.intro h6, main.content h1, main.content h2, main.content h3, main.content h4, main.content h5, main.content h6 {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-main h1 {
+main h1, main.intro h1, main.content h1 {
   font-size: 48px;
 }
-main h2 {
+main h2, main.intro h2, main.content h2 {
   font-size: 24px;
 }
-main p {
+main h3, main.intro h3, main.content h3 {
+  font-size: 16px;
+}
+main p, main.intro p, main.content p {
   font-size: 16px;
   max-width: 80ch;
   text-align: center;
+  display: inline-block;
+}
+main .logo img, main.intro .logo img, main.content .logo img {
+  height: 50px;
+}
+main .logo-description h3, main.intro .logo-description h3, main.content .logo-description h3 {
+  font-variant: inherit;
 }
 
 footer .footer-container {
@@ -147,8 +157,17 @@ footer p {
     display: none;
   }
 }
-#about-me .intro {
-  height: calc($height-body - 112px);
+#about-me .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about-me .content .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .page-wrapper {
