@@ -15,18 +15,21 @@ main, main.intro, main.content {
     }
     h1 {
         font-size: 48px;
+        margin-top: 1em;
     }
     h2 {
         font-size: 24px;
+        margin-top: 0.5em;
     }
     h3 {
         font-size: 16px;
+        margin-top: 1em;
     }
     p {
         font-size: 16px;
         max-width: 80ch;
-        text-align: center;
-        display: inline-block;
+        text-align: justify;
+        margin-top: 0.5em;
     }
     .intro {
     }
@@ -64,6 +67,7 @@ main, main.intro, main.content {
         margin-top: 5px;
         h3 {
             font-variant: inherit;
+            margin-top: 0px;
         }
     }
 }

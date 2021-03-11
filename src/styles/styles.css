@@ -120,18 +120,21 @@ main h1, main h2, main h3, main h4, main h5, main h6, main.intro h1, main.intro 
 }
 main h1, main.intro h1, main.content h1 {
   font-size: 48px;
+  margin-top: 1em;
 }
 main h2, main.intro h2, main.content h2 {
   font-size: 24px;
+  margin-top: 0.5em;
 }
 main h3, main.intro h3, main.content h3 {
   font-size: 16px;
+  margin-top: 1em;
 }
 main p, main.intro p, main.content p {
   font-size: 16px;
   max-width: 80ch;
-  text-align: center;
-  display: inline-block;
+  text-align: justify;
+  margin-top: 0.5em;
 }
 main .content, main.intro .content, main.content .content {
   display: flex;
@@ -168,6 +171,7 @@ main .logo-description, main.intro .logo-description, main.content .logo-descrip
 }
 main .logo-description h3, main.intro .logo-description h3, main.content .logo-description h3 {
   font-variant: inherit;
+  margin-top: 0px;
 }
 
 footer .footer-container {
