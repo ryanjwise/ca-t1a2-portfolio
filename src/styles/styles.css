@@ -124,11 +124,11 @@ main h1, main.intro h1, main.content h1 {
 }
 main h2, main.intro h2, main.content h2 {
   font-size: 24px;
-  margin-top: 0.5em;
+  margin-top: 2em;
 }
 main h3, main.intro h3, main.content h3 {
-  font-size: 16px;
-  margin-top: 1em;
+  font-size: 20px;
+  margin-top: 1.5em;
 }
 main p, main.intro p, main.content p {
   font-size: 16px;
@@ -151,6 +151,12 @@ main .content .description, main.intro .content .description, main.content .cont
   flex-direction: column;
   align-items: center;
 }
+main .content hr, main.intro .content hr, main.content .content hr {
+  margin-top: 2em;
+}
+main .content .content-header, main.intro .content .content-header, main.content .content .content-header {
+  font-size: 16px;
+}
 main .logo-array, main.intro .logo-array, main.content .logo-array {
   display: flex;
   flex-wrap: wrap;
@@ -159,6 +165,15 @@ main .logo-array, main.intro .logo-array, main.content .logo-array {
 }
 main .logo-array .logo-array-item, main.intro .logo-array .logo-array-item, main.content .logo-array .logo-array-item {
   margin: 20px 5%;
+}
+main .logo-array .logo-array-item i, main.intro .logo-array .logo-array-item i, main.content .logo-array .logo-array-item i {
+  font-size: 50px;
+}
+main .logo-array .logo-array-item a, main .logo-array .logo-array-item a:visited, main.intro .logo-array .logo-array-item a, main.intro .logo-array .logo-array-item a:visited, main.content .logo-array .logo-array-item a, main.content .logo-array .logo-array-item a:visited {
+  color: #b8336a;
+}
+main .logo-array .logo-array-item a:hover, main.intro .logo-array .logo-array-item a:hover, main.content .logo-array .logo-array-item a:hover {
+  color: #ffba49;
 }
 main .logo, main.intro .logo, main.content .logo {
   margin: 0px;
@@ -172,6 +187,19 @@ main .logo-description, main.intro .logo-description, main.content .logo-descrip
 main .logo-description h3, main.intro .logo-description h3, main.content .logo-description h3 {
   font-variant: inherit;
   margin-top: 0px;
+}
+main .content-array, main.intro .content-array, main.content .content-array {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content-img, main.intro .content-img, main.content .content-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+main .content-img img, main.intro .content-img img, main.content .content-img img {
+  max-width: 100%;
 }
 
 footer .footer-container {
@@ -191,6 +219,32 @@ footer p {
     display: none;
   }
 }
+#about-me .intro h2, #about-me .content h2 {
+  margin-top: 0.5em;
+}
+
+#projects .nav-wrapper {
+  flex-direction: column;
+}
+#projects .nav-wrapper nav ul {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+#projects .nav-wrapper nav ul li {
+  margin: 5px 0px;
+  width: 160px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  line-height: 28px;
+}
+#projects .description {
+  text-align: justify;
+}
+
 .page-wrapper {
   min-height: calc(100vh - calc(23 * 2px));
   display: flex;
