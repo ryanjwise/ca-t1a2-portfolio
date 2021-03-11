@@ -1,6 +1,8 @@
 hr {
   color: #47ff4e;
+  background-color: #47ff4e;
   margin: 5px 10px;
+  border-style: solid;
 }
 
 body {
