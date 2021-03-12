@@ -59,6 +59,7 @@ main, main.intro, main.content {
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
+        width: 100%;
         .logo-array-item {
             margin: 20px 5%;
             i {
@@ -89,6 +90,15 @@ main, main.intro, main.content {
         display: flex;
         flex-direction: column;
         align-items: center;
+        .content-array-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            hr {
+                width: 80%;
+            }
+        }
     }
     .content-img {
         display: flex;
@@ -100,3 +110,55 @@ main, main.intro, main.content {
         }
     }
 }
+.nav-array {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .nav-array-item {
+      width: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5%;
+      .nav-btn {
+        height: 30px;
+        a,
+        a:visited {
+          line-height: 30px;
+          @include link-base;
+        }
+        a:hover {
+          @include link-hover;
+        }
+      }
+      .nav-img {
+        display: none;
+        margin-top: 10px;
+        max-height: 250px;
+        align-self: center;
+      }
+      .nav-extra {
+        margin-top: 10px;
+        display: none;
+      }
+    }
+  }
+  @media screen and (min-width: 650px) {
+    .nav-array {
+      flex-direction: row;
+      width: 100%;
+      .nav-array-item {
+        width: 250px;
+        .nav-img {
+          display: block;
+        }
+        .nav-extra {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
