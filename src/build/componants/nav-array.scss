@@ -37,10 +37,15 @@
   .nav-array {
     flex-direction: row;
     width: 100%;
+    align-items: flex-start;
     .nav-array-item {
       width: 250px;
       .nav-img {
         display: block;
+        img {
+            max-height: 250px;
+            max-width: 250px;
+        }
       }
       .nav-extra {
         display: flex;
