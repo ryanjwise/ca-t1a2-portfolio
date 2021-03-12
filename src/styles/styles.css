@@ -40,11 +40,46 @@ body {
 .socials i {
   font-size: 30px;
 }
-.socials a, .socials a:visited {
+.socials a,
+.socials a:visited {
   color: #47ff4e;
 }
 .socials a:hover {
   color: #b8336a;
+}
+
+.logo-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.logo-array .logo-array-item {
+  margin: 20px 5%;
+}
+.logo-array .logo-array-item i {
+  font-size: 50px;
+}
+.logo-array .logo-array-item a,
+.logo-array .logo-array-item a:visited {
+  color: #b8336a;
+}
+.logo-array .logo-array-item a:hover {
+  color: #ffba49;
+}
+.logo-array .logo-array-item .logo {
+  margin: 0px;
+}
+.logo-array .logo-array-item .logo img {
+  height: 50px;
+}
+.logo-array .logo-array-item .logo-description {
+  margin-top: 5px;
+}
+.logo-array .logo-array-item .logo-description h3 {
+  font-variant: inherit;
+  margin-top: 0px;
 }
 
 .nav-wrapper {
@@ -105,105 +140,213 @@ nav li a.active {
     justify-content: flex-start;
   }
 }
-main, main.intro, main.content {
+main,
+main.intro,
+main.content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main h1, main h2, main h3, main h4, main h5, main h6, main p, main.intro h1, main.intro h2, main.intro h3, main.intro h4, main.intro h5, main.intro h6, main.intro p, main.content h1, main.content h2, main.content h3, main.content h4, main.content h5, main.content h6, main.content p {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main p,
+main.intro h1,
+main.intro h2,
+main.intro h3,
+main.intro h4,
+main.intro h5,
+main.intro h6,
+main.intro p,
+main.content h1,
+main.content h2,
+main.content h3,
+main.content h4,
+main.content h5,
+main.content h6,
+main.content p {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-main h1, main h2, main h3, main h4, main h5, main h6, main.intro h1, main.intro h2, main.intro h3, main.intro h4, main.intro h5, main.intro h6, main.content h1, main.content h2, main.content h3, main.content h4, main.content h5, main.content h6 {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main.intro h1,
+main.intro h2,
+main.intro h3,
+main.intro h4,
+main.intro h5,
+main.intro h6,
+main.content h1,
+main.content h2,
+main.content h3,
+main.content h4,
+main.content h5,
+main.content h6 {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-main h1, main.intro h1, main.content h1 {
+main h1,
+main.intro h1,
+main.content h1 {
   font-size: 48px;
   margin-top: 1em;
 }
-main h2, main.intro h2, main.content h2 {
+main h2,
+main.intro h2,
+main.content h2 {
   font-size: 24px;
   margin-top: 2em;
 }
-main h3, main.intro h3, main.content h3 {
+main h3,
+main.intro h3,
+main.content h3 {
   font-size: 20px;
   margin-top: 1.5em;
 }
-main p, main.intro p, main.content p {
+main p,
+main.intro p,
+main.content p {
   font-size: 16px;
   max-width: 80ch;
   text-align: justify;
   margin-top: 0.5em;
 }
-main .content, main.intro .content, main.content .content {
+main .content,
+main.intro .content,
+main.content .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 95%;
 }
-main .content section, main.intro .content section, main.content .content section {
+main .content section,
+main.intro .content section,
+main.content .content section {
   width: 100%;
 }
-main .content .description, main.intro .content .description, main.content .content .description {
+main .content .description,
+main.intro .content .description,
+main.content .content .description {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .content hr, main.intro .content hr, main.content .content hr {
+main .content hr,
+main.intro .content hr,
+main.content .content hr {
   margin-top: 2em;
 }
-main .content .content-header, main.intro .content .content-header, main.content .content .content-header {
+main .content .content-header,
+main.intro .content .content-header,
+main.content .content .content-header {
   font-size: 16px;
 }
-main .logo-array, main.intro .logo-array, main.content .logo-array {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-main .logo-array .logo-array-item, main.intro .logo-array .logo-array-item, main.content .logo-array .logo-array-item {
-  margin: 20px 5%;
-}
-main .logo-array .logo-array-item i, main.intro .logo-array .logo-array-item i, main.content .logo-array .logo-array-item i {
-  font-size: 50px;
-}
-main .logo-array .logo-array-item a, main .logo-array .logo-array-item a:visited, main.intro .logo-array .logo-array-item a, main.intro .logo-array .logo-array-item a:visited, main.content .logo-array .logo-array-item a, main.content .logo-array .logo-array-item a:visited {
-  color: #b8336a;
-}
-main .logo-array .logo-array-item a:hover, main.intro .logo-array .logo-array-item a:hover, main.content .logo-array .logo-array-item a:hover {
-  color: #ffba49;
-}
-main .logo, main.intro .logo, main.content .logo {
-  margin: 0px;
-}
-main .logo img, main.intro .logo img, main.content .logo img {
-  height: 50px;
-}
-main .logo-description, main.intro .logo-description, main.content .logo-description {
-  margin-top: 5px;
-}
-main .logo-description h3, main.intro .logo-description h3, main.content .logo-description h3 {
-  font-variant: inherit;
-  margin-top: 0px;
-}
-main .content-array, main.intro .content-array, main.content .content-array {
+main .content-array,
+main.intro .content-array,
+main.content .content-array {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .content-img, main.intro .content-img, main.content .content-img {
+main .content-array .content-array-item,
+main.intro .content-array .content-array-item,
+main.content .content-array .content-array-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+main .content-array .content-array-item hr,
+main.intro .content-array .content-array-item hr,
+main.content .content-array .content-array-item hr {
+  width: 80%;
+}
+main .content-img,
+main.intro .content-img,
+main.content .content-img {
   display: flex;
   align-content: center;
   justify-content: center;
 }
-main .content-img img, main.intro .content-img img, main.content .content-img img {
+main .content-img img,
+main.intro .content-img img,
+main.content .content-img img {
   max-width: 100%;
 }
 
+.nav-array {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-array .nav-array-item {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+.nav-array .nav-array-item .nav-btn {
+  height: 30px;
+}
+.nav-array .nav-array-item .nav-btn a,
+.nav-array .nav-array-item .nav-btn a:visited {
+  line-height: 30px;
+  height: 100%;
+  width: 100%;
+  background-color: #47ff4e;
+  display: block;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333745;
+  text-align: center;
+}
+.nav-array .nav-array-item .nav-btn a:hover {
+  background-color: #b8336a;
+}
+.nav-array .nav-array-item .nav-img {
+  display: none;
+  margin-top: 10px;
+  max-height: 250px;
+  align-self: center;
+}
+.nav-array .nav-array-item .nav-extra {
+  margin-top: 10px;
+  display: none;
+}
+
+@media screen and (min-width: 650px) {
+  .nav-array {
+    flex-direction: row;
+    width: 100%;
+  }
+  .nav-array .nav-array-item {
+    width: 250px;
+  }
+  .nav-array .nav-array-item .nav-img {
+    display: block;
+  }
+  .nav-array .nav-array-item .nav-extra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 footer .footer-container {
   min-height: 30px;
   padding: 0px 10px;
@@ -221,28 +364,11 @@ footer p {
     display: none;
   }
 }
-#about-me .intro h2, #about-me .content h2 {
+#about-me .intro h2,
+#about-me .content h2 {
   margin-top: 0.5em;
 }
 
-#projects .nav-wrapper {
-  flex-direction: column;
-}
-#projects .nav-wrapper nav ul {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2em;
-}
-#projects .nav-wrapper nav ul li {
-  margin: 5px 0px;
-  width: 160px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  line-height: 28px;
-}
 #projects .description {
   text-align: justify;
 }

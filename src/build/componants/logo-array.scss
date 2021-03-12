@@ -1,0 +1,33 @@
+.logo-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  .logo-array-item {
+    margin: 20px 5%;
+    i {
+      font-size: 50px;
+    }
+    a,
+    a:visited {
+      color: $colour-hero;
+    }
+    a:hover {
+      color: $colour-teritary;
+    }
+    .logo {
+      margin: 0px;
+      img {
+        height: 50px;
+      }
+    }
+    .logo-description {
+      margin-top: 5px;
+      h3 {
+        font-variant: inherit;
+        margin-top: 0px;
+      }
+    }
+  }
+}
