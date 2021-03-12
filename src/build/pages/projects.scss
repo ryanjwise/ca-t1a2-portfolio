@@ -2,4 +2,107 @@
   .description {
     text-align: justify;
   }
+  .project {
+    display: inline-grid;
+    justify-items: start;
+    align-items: start;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hr        "
+      "project-h "
+      "img       "
+      "about     "
+      "link-h    "
+      "links     ";
+    hr {
+      grid-area: hr;
+      width: 100%;
+    }
+    :nth-child(2) {
+      grid-area: project-h;
+    }
+    .content-img {
+      align-self: flex-start;
+      grid-area: img;
+      margin: 20px 10px;
+    }
+    .description {
+      grid-area: about;
+      align-self: flex-start;
+    }
+    :nth-child(5) {
+      grid-area: tech-h;
+      align-self: flex-end;
+      display: none;
+    }
+    :nth-child(6) {
+      grid-area: tech;
+      align-self: flex-start;
+      display: none;
+    }
+    :nth-child(7) {
+      grid-area: link-h;
+      align-self: flex-end;
+    }
+    :nth-child(8) {
+      grid-area: links;
+      align-self: flex-start;
+    }
+  }
+}
+@media screen and (min-width: 650px) {
+  #projects {
+    .project {
+      display: inline-grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: 1fr 20px 1fr;
+      grid-template-areas:
+        "hr        hr        hr"
+        "project-h project-h project-h"
+        "img       .         about"
+        "tech-h    tech-h    tech-h"
+        "tech      tech      tech"
+        "link-h    link-h    link-h"
+        "links     links     links";
+        :nth-child(5) {
+          grid-area: tech-h;
+          align-self: flex-end;
+          display: block;
+        }
+        :nth-child(6) {
+          grid-area: tech;
+          align-self: flex-start;
+          display: flex;
+      }
+  }
+}
+}
+@media screen and (min-width: 1050px) {
+  #projects {
+    .project {
+      display: inline-grid;
+      justify-items: center;
+      align-items: center;
+      grid-template-columns: 1fr 20px 1fr;
+      grid-template-areas:
+        "hr        hr        hr"
+        "project-h project-h project-h"
+        "img       .         about"
+        "img       .         tech-h"
+        "img       .         tech"
+        "img       .         link-h"
+        "img       .         links";
+        :nth-child(5) {
+          grid-area: tech-h;
+          align-self: flex-end;
+          display: block;
+        }
+        :nth-child(6) {
+          grid-area: tech;
+          align-self: flex-start;
+          display: flex;
+      }
+  }
+}
 }
