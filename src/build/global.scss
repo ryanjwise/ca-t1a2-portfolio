@@ -17,6 +17,22 @@ $colour-hero: #b8336a;
   font-variant: small-caps;
   font-weight: bold;
 }
+@mixin link-base() {
+  height: 100%;
+  width: 100%;
+  background-color: $colour-foreground;
+  display: block;
+  text-decoration: underline;
+  @include font-header;
+  color: $colour-background;
+  text-align: center;
+}
+@mixin link-hover {
+  background-color: $colour-hero;
+}
+@mixin link-active {
+  background-color: $colour-teritary;
+}
 
 // Elements
 hr {
@@ -35,3 +51,5 @@ body {
     font-variant: normal;
   }
 }
+
+

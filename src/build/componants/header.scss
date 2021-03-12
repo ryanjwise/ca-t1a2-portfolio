@@ -22,20 +22,13 @@ nav {
     a,
     a:visited,
     a:hover {
-      height: 100%;
-      width: 100%;
-      background-color: $colour-foreground;
-      display: block;
-      text-decoration: underline;
-      @include font-header;
-      color: $colour-background;
-      text-align: center;
+      @include link-base;
     }
     a:hover {
-      background-color: $colour-hero;
+      @include link-hover;
     }
     a.active {
-      background-color: $colour-teritary;
+      @include link-active;
     }
   }
 }
