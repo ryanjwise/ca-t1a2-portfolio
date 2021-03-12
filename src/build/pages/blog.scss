@@ -25,10 +25,14 @@
         }
         .hover {
           height: 60px;
+          width: 100%;
           max-width: 250px;
+          // display: flex;
+          // flex-direction: column;
+          
 
           //Included here to give button styling to whole element
-          @include link-base;
+          // @include link-base;
           a,
           a:visited {
             @include link-base;
@@ -36,18 +40,25 @@
           a:hover {
             @include link-hover;
           }
+          a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+          }
         }
 
         //Centers text in button
         .nav-btn {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          height: auto;
           width: 100%;
         }
 
         //Custom styling for date time, as of yet this is the only place this element appears
         .nav-date {
+          height: 15px;
+          // width: 100%;
+          justify-self: flex-end;
+          align-self: center;
           font-size: 0.8em;
           font-style: italic;
           font-variant: normal;
