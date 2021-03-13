@@ -4,5 +4,17 @@
     h2 {
       margin-top: 0.5em;
     }
+    .cv-link{
+      margin-top: 10px;
+      width: 100px;
+      height: 25px;
+      a, a:visited {
+        @include link-base;
+        background-color: $colour-teritary;
+      }
+      a:hover {
+        @include link-hover
+      }
+    }
   }
 }

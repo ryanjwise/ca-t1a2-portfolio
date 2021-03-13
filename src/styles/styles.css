@@ -17,6 +17,14 @@ body p {
   font-variant: normal;
 }
 
+a, a:visited {
+  color: #ffba49;
+}
+
+a:hover {
+  color: #b8336a;
+}
+
 html {
   box-sizing: border-box;
   margin: 0px;
@@ -369,6 +377,32 @@ footer p {
 #about-me .intro h2,
 #about-me .content h2 {
   margin-top: 0.5em;
+}
+#about-me .intro .cv-link,
+#about-me .content .cv-link {
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+}
+#about-me .intro .cv-link a, #about-me .intro .cv-link a:visited,
+#about-me .content .cv-link a,
+#about-me .content .cv-link a:visited {
+  height: 100%;
+  width: 100%;
+  background-color: #47ff4e;
+  display: block;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333745;
+  text-align: center;
+  background-color: #ffba49;
+}
+#about-me .intro .cv-link a:hover,
+#about-me .content .cv-link a:hover {
+  background-color: #b8336a;
 }
 
 #contact .content {
