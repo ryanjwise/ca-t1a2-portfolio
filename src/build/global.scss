@@ -12,7 +12,7 @@ $colour-hero: #b8336a;
 
 // Typography
 @mixin font-header() {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Source Code Pro', monospace;
   text-transform: capitalize;
   font-variant: small-caps;
   font-weight: bold;
@@ -45,9 +45,11 @@ body {
   @include font-header();
   color: $colour-foreground;
 
-  p {
+  p, {
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: none;
     font-variant: normal;
+    font-weight: normal;
   }
 }
 
@@ -60,3 +62,7 @@ a:hover{
   color: $colour-hero;
 }  
 
+::selection {
+  background: $colour-hero;
+  color: $colour-background;
+}
