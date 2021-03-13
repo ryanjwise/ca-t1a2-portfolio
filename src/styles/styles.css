@@ -553,6 +553,7 @@ footer p {
     display: block;
   }
   #blog-page .content img {
+    max-width: 50%;
     float: left;
     margin: 1.5em;
   }
