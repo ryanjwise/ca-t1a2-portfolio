@@ -371,6 +371,69 @@ footer p {
   margin-top: 0.5em;
 }
 
+#contact .content {
+  max-width: 750px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+}
+#contact .content .contact-form {
+  max-width: 500px;
+  margin-top: 2%;
+}
+#contact .content .contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+#contact .content .contact-form div {
+  margin-top: 10px;
+}
+#contact .content .contact-form input,
+#contact .content .contact-form textarea {
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  color: #47ff4e;
+  background-color: #333745;
+  font-size: 14px;
+}
+#contact .content .contact-form textarea {
+  min-height: 50px;
+}
+#contact .content .contact-form input:focus,
+#contact .content .contact-form textarea:focus {
+  outline: 1px solid #47ff4e;
+}
+#contact .content .contact-form button {
+  display: inline-block;
+  border: none;
+  width: 100px;
+  height: 25px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333745;
+  background-color: #ffba49;
+}
+#contact .content .contact-form button:hover {
+  background-color: #b8336a;
+}
+#contact .content .contact-form .form-submit {
+  align-self: flex-end;
+}
+@media screen and (min-width: 650px) {
+  #contact .content {
+    margin-top: 10%;
+  }
+  #contact .content .contact-form {
+    margin-top: 10%;
+  }
+}
+
 #projects .description {
   text-align: justify;
 }
