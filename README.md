@@ -1,4 +1,10 @@
-# Directory Map
+# Portfolio Site
+Project Description
+
+## Deployment
+The site can either be opened locally using the files found in the `src` directory, or found deployed on [Netlify at https://ryanjwise.netlify.app/](https://ryanjwise.netlify.app/)
+
+## Directory Map
 
 - root
 	- gitlog.txt
