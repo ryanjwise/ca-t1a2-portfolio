@@ -26,6 +26,10 @@
       margin-top: 10px;
       max-height: 250px;
       align-self: center;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
     }
     .nav-extra {
       margin-top: 10px;
