@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5%;
+  padding: 2%;
 }
 .nav-array .nav-array-item .nav-btn {
   height: 30px;

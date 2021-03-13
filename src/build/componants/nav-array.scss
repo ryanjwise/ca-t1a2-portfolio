@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5%;
+    padding: 2%;
     .nav-btn {
       height: 30px;
       a,
@@ -47,8 +47,8 @@
       .nav-img {
         display: block;
         img {
-            max-height: 250px;
-            max-width: 250px;
+          max-height: 250px;
+          max-width: 250px;
         }
       }
       .nav-extra {
