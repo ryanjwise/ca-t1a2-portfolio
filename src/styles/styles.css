@@ -8,6 +8,11 @@
  font-family: 'Source Sans Pro', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro&display=swap");
+/* 
+Holds global variables and controls master style overrides for elements (Typography, links etc.)
+
+Componant styling: Textual,Graphical
+*/
 /*
 Controls Page Layout
 Ensuring the header and footer will always be at the top and bottom of the document,
@@ -61,6 +66,11 @@ a:hover {
   color: #333745;
 }
 
+/*
+Controls the background size, colour and outline.
+
+Componant styling: Graphical
+*/
 html,
 body {
   box-sizing: border-box;
@@ -81,179 +91,11 @@ body {
   border-radius: 30px;
 }
 
-.socials {
-  /*Font awesome imported fonts use the i tag by default
-  If font awesome icons are no longer used an alternative method will be required*/
-}
-.socials i {
-  font-size: 30px;
-}
-.socials a,
-.socials a:visited {
-  color: #47ff4e;
-}
-.socials a:hover {
-  color: #b8336a;
-}
-
-/*
-Controls styling for array of logos, this is primarily seen in Skills and Hobbies sections, however is also used to array links in the project page.
-*/
-.logo-array {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-}
-.logo-array .logo-array-item {
-  margin: 20px 5%;
-  /*i tag styled in the event font awesome is used to display icons e.g. links */
-}
-.logo-array .logo-array-item i {
-  font-size: 50px;
-}
-.logo-array .logo-array-item a,
-.logo-array .logo-array-item a:visited {
-  color: #ffba49;
-}
-.logo-array .logo-array-item a:hover {
-  color: #b8336a;
-}
-.logo-array .logo-array-item .logo {
-  margin: 0px;
-}
-.logo-array .logo-array-item .logo img {
-  height: 50px;
-}
-.logo-array .logo-array-item .logo-description {
-  margin-top: 5px;
-}
-.logo-array .logo-array-item .logo-description h3 {
-  font-variant: inherit;
-  margin-top: 0px;
-}
-
-/*
-Used to control more complex arrays containing two or more objects in each item.
-As these arrays are typically used as navigation aids, the header is styled as a clickable button
-and unless overridden other elements are hidden on a mobile device.
-
-Breaks into 3 main componants:
-1. Header button with clickable a tag
-2. Image
-3. Contextual infomration
-
-This is used on both the projects page and the master blog page.
-*/
-.nav-array {
-  margin-top: 2em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.nav-array .nav-array-item {
-  width: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2%;
-  /*Styles header elements as buttons similar to nav bar*/
-}
-.nav-array .nav-array-item .nav-btn {
-  height: 30px;
-}
-.nav-array .nav-array-item .nav-btn a,
-.nav-array .nav-array-item .nav-btn a:visited {
-  line-height: 30px;
-  height: 100%;
-  width: 100%;
-  background-color: #47ff4e;
-  display: block;
-  text-decoration: underline;
-  font-family: "Source Code Pro", monospace;
-  text-transform: capitalize;
-  font-variant: small-caps;
-  font-weight: bold;
-  color: #333745;
-  text-align: center;
-}
-.nav-array .nav-array-item .nav-btn a:hover {
-  background-color: #b8336a;
-}
-.nav-array .nav-array-item .nav-img {
-  display: none;
-  margin-top: 10px;
-  max-height: 250px;
-  align-self: center;
-  /*Ensure image does not overrun parent container*/
-}
-.nav-array .nav-array-item .nav-img img {
-  max-height: 100%;
-  max-width: 100%;
-}
-.nav-array .nav-array-item .nav-extra {
-  margin-top: 10px;
-  display: none;
-}
-
-/*
-Media query enables display of image and contextual information at larger screen sizes
-*/
-@media screen and (min-width: 650px) {
-  .nav-array {
-    flex-direction: row;
-    width: 100%;
-    align-items: flex-start;
-  }
-  .nav-array .nav-array-item {
-    width: 250px;
-  }
-  .nav-array .nav-array-item .nav-img {
-    display: block;
-  }
-  .nav-array .nav-array-item .nav-img img {
-    max-height: 250px;
-    max-width: 250px;
-  }
-  .nav-array .nav-array-item .nav-extra {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-/*
-Provides a baseline control for repeating elements flowing vertically down the page.
-It is mostly overriden in projects.scss, and isn't used elsewhere. Some work could probably be done to refactor and remove this styling.
-*/
-.content-array {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.content-array .content-array-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.content-array .content-array-item hr {
-  width: 80%;
-}
-
-.content-img {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-.content-img img {
-  max-width: 100%;
-}
-
 /*
 Controls and ensures the header bar remains responsive across all display sizes.
 Will remain functional down to screen width of 150px.
+
+Componant styling: Textual,Graphical
 */
 .nav-wrapper {
   align-items: center;
@@ -320,6 +162,8 @@ and aligns nav buttons to the left.
 /*
 Styles main body of document, similar function global, however avoids touching the header and footer elements entirely.
 Go here for general font and graphical spacing overrides.
+
+Componant styling: Textual,Graphical
 */
 main,
 main.intro,
@@ -437,6 +281,8 @@ main.content .content .content-header {
 /*
 Controls and ensures the footer bar remains responsive across all display sizes.
 Will remain functional down to screen width of 110px, however is optimal above 260px.
+
+Componant styling: Textual,Graphical
 */
 footer .footer-container {
   min-height: 30px;
@@ -455,6 +301,187 @@ footer p {
     display: none;
   }
 }
+/*
+Controls socials size and colour of socials links
+
+Componant styling: Graphical
+*/
+.socials {
+  /*Font awesome imported fonts use the i tag by default
+  If font awesome icons are no longer used an alternative method will be required*/
+}
+.socials i {
+  font-size: 30px;
+}
+.socials a,
+.socials a:visited {
+  color: #47ff4e;
+}
+.socials a:hover {
+  color: #b8336a;
+}
+
+/*
+Controls styling for array of logos, this is primarily seen in Skills and Hobbies sections, however is also used to array links in the project page.
+
+Componant styling: Textual,Graphical
+*/
+.logo-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.logo-array .logo-array-item {
+  margin: 20px 5%;
+  /*i tag styled in the event font awesome is used to display icons e.g. links */
+}
+.logo-array .logo-array-item i {
+  font-size: 50px;
+}
+.logo-array .logo-array-item a,
+.logo-array .logo-array-item a:visited {
+  color: #ffba49;
+}
+.logo-array .logo-array-item a:hover {
+  color: #b8336a;
+}
+.logo-array .logo-array-item .logo {
+  margin: 0px;
+}
+.logo-array .logo-array-item .logo img {
+  height: 50px;
+}
+.logo-array .logo-array-item .logo-description {
+  margin-top: 5px;
+}
+.logo-array .logo-array-item .logo-description h3 {
+  font-variant: inherit;
+  margin-top: 0px;
+}
+
+/*
+Used to control more complex arrays containing two or more objects in each item.
+As these arrays are typically used as navigation aids, the header is styled as a clickable button
+and unless overridden other elements are hidden on a mobile device.
+
+Breaks into 3 main componants:
+1. Header button with clickable a tag
+2. Image
+3. Contextual infomration
+
+This is used on both the projects page and the master blog page.
+
+Componant styling: Textual,Graphical
+*/
+.nav-array {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-array .nav-array-item {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2%;
+  /*Styles header elements as buttons similar to nav bar*/
+}
+.nav-array .nav-array-item .nav-btn {
+  height: 30px;
+}
+.nav-array .nav-array-item .nav-btn a,
+.nav-array .nav-array-item .nav-btn a:visited {
+  line-height: 30px;
+  height: 100%;
+  width: 100%;
+  background-color: #47ff4e;
+  display: block;
+  text-decoration: underline;
+  font-family: "Source Code Pro", monospace;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #333745;
+  text-align: center;
+}
+.nav-array .nav-array-item .nav-btn a:hover {
+  background-color: #b8336a;
+}
+.nav-array .nav-array-item .nav-img {
+  display: none;
+  margin-top: 10px;
+  max-height: 250px;
+  align-self: center;
+  /*Ensure image does not overrun parent container*/
+}
+.nav-array .nav-array-item .nav-img img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.nav-array .nav-array-item .nav-extra {
+  margin-top: 10px;
+  display: none;
+}
+
+/*
+Media query enables display of image and contextual information at larger screen sizes
+*/
+@media screen and (min-width: 650px) {
+  .nav-array {
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .nav-array .nav-array-item {
+    width: 250px;
+  }
+  .nav-array .nav-array-item .nav-img {
+    display: block;
+  }
+  .nav-array .nav-array-item .nav-img img {
+    max-height: 250px;
+    max-width: 250px;
+  }
+  .nav-array .nav-array-item .nav-extra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+/*
+Provides a baseline control for repeating elements flowing vertically down the page.
+It is mostly overriden in projects.scss, and isn't used elsewhere. Some work could probably be done to refactor and remove this styling.
+
+Componant styling: Graphical
+*/
+.content-array {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-array .content-array-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.content-array .content-array-item hr {
+  width: 80%;
+}
+
+.content-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.content-img img {
+  max-width: 100%;
+}
+
 /*
 Specific overrides for the about-me page.
 */
@@ -492,6 +519,8 @@ Specific overrides for the about-me page.
 /*
 Specific overrides for the contacts page
 Primarily this is form formatting, if forms should appear elsewhere much of this could become a componant.
+
+Componant styling: Textual,Graphical
 */
 #contact .content {
   max-width: 750px;
@@ -561,6 +590,8 @@ Primarily this is form formatting, if forms should appear elsewhere much of this
 /*
 Specific overrides for the projects page
 Heavy use of grids were employed to ensure project display was responsive across devices, unfortunately it is very specific to the display of content on this page.
+
+Componant styling: Textual,Graphical
 */
 #projects {
   /*
@@ -662,6 +693,8 @@ Heavy use of grids were employed to ensure project display was responsive across
 /*
 Specific overrides for the blog index page
 Includes overrides to nav-array.scss necessary to add datetime to the clickable links
+
+Componant styling: Textual,Graphical
 */
 #blog .content .nav-array {
   flex-direction: row;
@@ -748,6 +781,8 @@ Includes overrides to nav-array.scss necessary to add datetime to the clickable 
 
 /*
 Specific overrides for individual blog pages
+
+Componant styling: Textual,Graphical
 */
 #blog-page .intro h3 {
   margin-top: 1em;
