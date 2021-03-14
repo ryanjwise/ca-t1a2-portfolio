@@ -9,13 +9,37 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro&display=swap");
 
-// Holds global variables and controls master style overrides for elements (Typography, links etc.)
+/* 
+Holds global variables and controls master style overrides for elements (Typography, links etc.)
+*/
 @import "global.scss";
 
-//Controls the background size, colour and outline.
+/*
+Controls the background size, colour and outline.
+*/
 @import "componants/background.scss";
 
-//Controls socials size and colour
+/*
+Controls and ensures the header bar remains responsive across all display sizes.
+Will remain functional down to screen width of 150px.
+*/
+@import "componants/header.scss";
+
+/*
+Styles main body of document, similar function global, however avoids touching the header and footer elements entirely.
+Go here for general font and graphical spacing overrides.
+*/
+@import "componants/main.scss";
+
+/*
+Controls and ensures the footer bar remains responsive across all display sizes.
+Will remain functional down to screen width of 110px, however is optimal above 260px.
+*/
+@import "componants/footer.scss";
+
+/*
+Controls socials size and colour
+*/
 @import "componants/socials.scss";
 
 /*
@@ -43,23 +67,6 @@ It is mostly overriden in projects.scss, and isn't used elsewhere. Some work cou
 */
 @import "componants/content-array.scss";
 
-/*
-Controls and ensures the header bar remains responsive across all display sizes.
-Will remain functional down to screen width of 150px.
-*/
-@import "componants/header.scss";
-
-/*
-Styles main body of document, similar function global, however avoids touching the header and footer elements entirely.
-Go here for general font and graphical spacing overrides.
-*/
-@import "componants/main.scss";
-
-/*
-Controls and ensures the footer bar remains responsive across all display sizes.
-Will remain functional down to screen width of 110px, however is optimal above 260px.
-*/
-@import "componants/footer.scss";
 
 /*
 Specific overrides for the about-me page.
