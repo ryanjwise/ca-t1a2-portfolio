@@ -22,6 +22,16 @@ It is designed to be mobile first, and responsive across mobile, tablet and desk
 
 It uses flexbox and some grids to ensure that content can be added to various arrays without additional styling requirements.
 
+No use of JavaScript, minimal fetches, and the use of optimised images aim to make the page very performative, responding very well to lighthouse reporting:
+
+*On Mobile*
+
+![Lighthouse report Mobile](./docs/lighthousereport-mobile-projects.png)
+
+*On Desktop*
+
+![Lighthouse report Desktop](./docs/lighthousereport-desktop-projects.png)
+
 - In some instances placeholder images have been used instead of screenshots. When this is the case they have been sourced using [Unsplashed.com](https://unsplash.com/), I do not own the rights to these images.
 
 ### Sitemap
@@ -90,40 +100,14 @@ Deployed on [Netlify](https://www.netlify.com/), using a front end stack includi
 ##### Desktop
 
 ![Desktop Screenshot: Blogpost](./docs/screenshot-desktop-blogpost.png)
-## Directory Map
 
-- root
-  - gitlog.txt
-  - README.md
-  - .gitignore
-  - ./docs/
-    - All resources referenced by the README.md file
-	- .png/jpg/md etc
-  - ./ppt/
-    - Slide Deck.whatever
-    - Slide Deck.pdf
-  - ./src/
-    - Source code
-    - *.html
-    - /blog
-      - YYYY-MM-DD.html
-      - /blog-resources
-        - /YYYY-MM
-          - imgs etc
-    - /styles
-      - .css files
-    - /resources
-      - img's
-      - etc
-    - /build
-      - global.scss (Holds variables Fixins and global element styling)
-      - styles.scss (Holds import statements for font and all other .scss files)
-      - /componants
-        - .scss (Holds all scss files for componant styling)
-      - /pages
-        - .scss (Holds all scss files for page specific overrides)
-## To-Do
+## What's Next?
 
-- Make Header and footer fixed elements
-- make content height = screen height
-- Animate Header
+Whilst the site has reached what I would consider minimum viable product, there are still features that I have yet to implement. These are listed below:
+
+- Make Header and footer fixed elements on the page.
+  - This will add to the terminal asthetic of the site.
+- Add clickable links to document sections allowing the user to jump either back to the top of the current page, or forward/backward through projects etc.
+- Replace placeholder text and images with actual content.
+- Animate Page Headers (h1 & h2) with a typewriter effect, with a trailing input cursor blinking on a loop at the end.
+- Animation to smooth out hover effect.
