@@ -1,0 +1,609 @@
+commit a16d603fb69efb2cc9ae10c4232cbf9446c9add7
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 18:00:40 2021 +1100
+
+    Added SRI512 & 384 hashes to all links to style.css
+
+commit 08a135d2ba2cb7c3b69fda5fa51ca5924337f942
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 17:49:29 2021 +1100
+
+    Added lighthouse reports to readme.md
+
+commit 8fa0ab88690cb7db1dd301dd01bcb89540386b9a
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 17:27:45 2021 +1100
+
+    Updated readme.md, added screenshots
+
+commit 421ee0cd2216be0ba16628c300dfabe539d2ea70
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 17:12:47 2021 +1100
+
+    Added mobile and Desktop screenshots to docs
+
+commit 7da2a6cee4819543feeeeb4cb1d2acd6564f3d4e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 17:03:54 2021 +1100
+
+    Added docs for readme.md and updated progress on readme.md
+
+commit d264eff85306ac5d5f16d192107c389cac686037
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 17:03:12 2021 +1100
+
+    Added placeholder image to projects page
+
+commit 829464a5fbb49b57823e90ff987493a58a8fa5d1
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 16:26:28 2021 +1100
+
+    Repathed files used in slidedeck
+
+commit 7ae15ed713f3739e1c62ac7236bfdd0e30f6f999
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 15:55:50 2021 +1100
+
+    Added readme.md structure
+
+commit f465f9fc6c00553743fecd83bb43e5724e0a7619
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 14:29:25 2021 +1100
+
+    Commented and formatted html
+
+commit e7d6f838d791f7ddfe522c20372abbaca075a80a
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 14:15:50 2021 +1100
+
+    Added indicators to styles.scss RE graphical or textual styling within
+
+commit 8b45010bcbc04f2fff10b173ffd72c418356d4f4
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 14:09:26 2021 +1100
+
+    Reordered styles.scss fo give better visual hierarchy of componants
+
+commit 8f474ac5f8090996f2d9cad7ad2da1eb9f0c35a8
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 14:05:49 2021 +1100
+
+    Comments and formatting of scss
+
+commit ce5c293e9f1cf8adfe17e3976412b8c29ad692f6
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 12:44:41 2021 +1100
+
+    Changed all links to new call to action colour, with old call to action as hover
+    To ensure consistency across the page
+
+commit 82a18feedeb621117f0030d90644bda6f14503c6
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sun Mar 14 12:41:23 2021 +1100
+
+    Updated typo in colour variable
+    -teritart became -tertiary in all docs
+
+commit 78e2844c6ead181a5fb6c46b959f69e7e8889be7
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 21:19:11 2021 +1100
+
+    Add headers and deploy link to readme.md
+
+commit 88ea6b28239b216c5549ff7c4f858ae407d14755
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 18:57:59 2021 +1100
+
+    commented out sri, added google fonts
+    Fixed resultant bug on blog h3's being too large - Last commit did not add all files correctly
+
+commit 5c0c18eccd6b48564f752fb6b493789946a23dca
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 18:50:30 2021 +1100
+
+    commented out sri, added google fonts
+    Fixed resultant bug on blog h3's being too large
+
+commit 6e769431dbdaff5c2164cd8f15476ebd983e7551
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 18:12:59 2021 +1100
+
+    Added sha512 & sha384 hashes to index for testing
+
+commit a7fa0bb3343325d49d3115d63e5c2bb4ea498756
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 17:42:35 2021 +1100
+
+    Added sitemap.xml
+
+commit c806bb85ce702f76629a36b4f10980eaf3b1a023
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 17:35:40 2021 +1100
+
+    Removed redundant styling from hr element
+
+commit 9ab695f49f1dc9db96eadf3b29251a28ab521a18
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 17:35:10 2021 +1100
+
+    Moved figure captions inside figure parent as per semantic guidelines
+
+commit fd0c9a7cabdbe29290dbc1a246497fdc8f7581b9
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 17:01:22 2021 +1100
+
+    replaced palceholder text on homepage, added CV link and updated inline link text styling
+
+commit 78378b326d2dba6086d43fd53d27908eb657bd67
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 14:48:26 2021 +1100
+
+    Styled Contact Page
+
+commit 9073b19711c6341a91d0d2277bf5b512663f0324
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:49:02 2021 +1100
+
+    Added detail to contact.html
+
+commit 7a64ccd76ed4128bc5b50deac77be8ddf646c54b
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:24:47 2021 +1100
+
+    Added basic netlify form to contact to test functionality
+
+commit dc7893d2c519ade3d3ec34bce0b4ad1897f4327b
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:14:57 2021 +1100
+
+    Removed background colour from blog images
+
+commit f5e359c8305b8cc27e5ea22363222002c9d4ae0b
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:14:12 2021 +1100
+
+    Repaired broken blog links and arranged by date
+
+commit f8e0eabee82aa67355049d42ec7e5c5805f6fed1
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:08:17 2021 +1100
+
+    Reduced padding to nav-array-items and formatted nav-array.scss
+
+commit db76c25d1dfdae6381972f185b2e12f7299f6456
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:05:56 2021 +1100
+
+    Moved last fix to componant nav-array.scss
+
+commit 2f155a56ac04cf3b97d4d7aacff83588545210c7
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:03:55 2021 +1100
+
+    Fixed mobile img display bug
+
+commit 972ce9b528b61edc5f4b28a7ce1555b0490b69bb
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 13:01:49 2021 +1100
+
+    Linked pages to master blog page
+
+commit 4c9cbd8501a11d10d39c957aba720d8204058a0c
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 12:44:09 2021 +1100
+
+    Updated blog post image display on desktop
+
+commit 091e26ed0be10ea11fed3e0f8715a66ce4a66892
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 12:43:34 2021 +1100
+
+    Added 4 additional blog posts
+
+commit 68431c0de3b85a7db8d7c7f9f972deb06dcf9454
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 12:43:04 2021 +1100
+
+    Updated title meta data in blog post
+
+commit ca3266035b669a553922fb6ec997414844b9807b
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 13 12:42:27 2021 +1100
+
+    Fixed blog boilerplate main ID error
+
+commit 7a1a3bff48b411a62859bf5f72c1d274bda2727a
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 18:10:43 2021 +1100
+
+    Styled blog pages
+
+commit 9041b0b3e713f28463a5ff7ed6d9b40ced308238
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 18:10:15 2021 +1100
+
+    Adjusted p tags global line height
+
+commit 0143a5abffacb9d4ab8ea09774b729f257f8e898
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 18:09:37 2021 +1100
+
+    Changed justification and updated comments on blog.scss
+
+commit 466d62755ae57858a3d7c4569a4aff627bedc79d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 18:08:24 2021 +1100
+
+    renamed Initial blog post on master blog page
+
+commit 04d9d5517abe04048531f7cb6ff5a23256e2156e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 18:07:43 2021 +1100
+
+    Updated blog boilerplate and added content to initial blog post
+
+commit a2c47692763a7a2bbc8c8085eb02dfb0c2c33b2d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 17:26:26 2021 +1100
+
+    Style change to allow longer titles for blog posts
+
+commit 6fa84875a447b446648c6aadcb05cdc9ad07ff52
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 15:58:35 2021 +1100
+
+    Added and linked the first blog page
+
+commit b674c47579b7a72a786ff7d41672609bdb11dc52
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 15:47:06 2021 +1100
+
+    Added Blog Links and styling
+
+commit 295feeb3be66494c66fad8c0c415c499c9488e1d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 12:48:30 2021 +1100
+
+    Tweaked font-size
+
+commit ac60ae5bd2e2e651628c9d55060dba420d8c2310
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 12:47:57 2021 +1100
+
+    Debugged landscape images in nav-array
+
+commit 4e5627628edd3536fe2c654377e1b2bf2d429199
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 12:47:19 2021 +1100
+
+    Added tech stack to projects and styled .project class with grid
+
+commit da14abf5de68f12bbdf8ca21aadb0dd99ef7ad27
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:15:33 2021 +1100
+
+    Moved nav-array from main.scss to nav.array componant
+
+commit 2e4296b0d835e6a6220ba6da98b2bb9cd3e52e52
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:14:03 2021 +1100
+
+    Moved content-array from main.scss to content.array componant
+
+commit d13f09538e01db5ec54ec1d539e42805b9f8f799
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:12:32 2021 +1100
+
+    Moved logo-array from main.scss to logo.array componant
+
+commit 79eaf4954f8fe2fdf69b440a4f046435f08ca0c5
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:09:38 2021 +1100
+
+    Formatted scss docs with prettier
+
+commit e5439ec6c6cf01df6448e8c9ac3f95fdbaf4a05e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:07:06 2021 +1100
+
+    refactored project links to make them responsive
+
+commit d033d5bb33fd4b9b1b0bea5a58e0f1be0956f711
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 11:05:41 2021 +1100
+
+    Moved link styles from header and added them as a global mixin
+
+commit 6f41e20007a2ece61dc467a023336b3d02f70be1
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 12 09:13:14 2021 +1100
+
+    Slight tweak to debug hr display error in chrome
+
+commit 511939d4ed181823b1a8d7de9ebf25aede234546
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 19:11:34 2021 +1100
+
+    Style refactor to keep font spacing global and custom styling on relevant page
+
+commit 94b085fbe69a34df4fd2992850abfa2052c5ab29
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 19:10:35 2021 +1100
+
+    Added assets for projects page
+
+commit 7e0ac412e92254a9b810de6a33bb60e5645ec78e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 19:09:27 2021 +1100
+
+    Added Projects content
+
+commit 8a897cc47b6df6800d0389720c49faaa21d02897
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 17:02:45 2021 +1100
+
+    Added contact, project, and blog page scaffolds, formatted index
+
+commit e6db3bfe9550fa1b919efc84c9f7757d94119ec8
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 16:52:13 2021 +1100
+
+    Adjusted default header amd font spacing
+
+commit 82c2e2d4f6ff69c8959c9ee9aa529dd70d392d80
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 12:53:18 2021 +1100
+
+    Added hobbies to about-me
+
+commit be7b11b04f4c05a3b087e3fe292757f4da3fbfe8
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 12:52:47 2021 +1100
+
+    Fixed container resizing bug
+
+commit 9f71897f2077ec2fea20ed831641ae21c991bd59
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 12:32:45 2021 +1100
+
+    fixed display bug in svg
+
+commit 05b4622c7c78db91688b79523232a5da891f758e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 12:17:02 2021 +1100
+
+    Refactored about-me icon array to make it compatable with arrays across project
+
+commit dcbd213fcfda5b87c5562b5f1eb3f2ce4609ef7c
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 11:42:10 2021 +1100
+
+    Added styling for h3 and logo elements
+
+commit 296136d6269f604ceda166ca02eca2bb776d1645
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 11 11:41:29 2021 +1100
+
+    Added flex styling for about-me page
+
+commit 67002255efab48fe9f572cb37e5f2e591a5bfcfd
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Wed Mar 10 16:00:30 2021 +1100
+
+    Added additional svg's and recoloured to foreground colour
+    also switched from logo jpg's to custom svg's in index.html
+
+commit 6e3965fd9eabf2a9e01499a67de4d4a99c0139d0
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Wed Mar 10 15:23:01 2021 +1100
+
+    Updated svg colours to foreground
+
+commit 6f8afa1b47c2c9969efd7e0c974063cc53a5170c
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Wed Mar 10 14:29:38 2021 +1100
+
+    Added Skills to Index.html
+
+commit ffe1097f6155941c4a1d6877b84880aa7ba4a2ae
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 23:37:34 2021 +1100
+
+    Added slide deck assets
+
+commit bd892758bc10c36fb43ef193a1419f43e8215d39
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 17:44:59 2021 +1100
+
+    Fix typo in main section of index.html & add about-me.scss
+
+commit 8dbd8858478f8f710b32cbf14761eac817550176
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 17:43:08 2021 +1100
+
+    Move calculated variables to global.scss
+
+commit 0521d75f0dc0b01fda78e226e508ce7963582e91
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 16:25:12 2021 +1100
+
+    Made footer responsive for desktop
+
+commit 333a8040e1cd8802b41c9ff0a637fa0227b5b8f6
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 16:21:48 2021 +1100
+
+    Made top nav responsive for desktop
+
+commit acf962126acfc5ae8ffc0e9f4b5ce4aed3c22d6d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:54:49 2021 +1100
+
+    Renamed nav.scss to header.scss
+
+commit 37313fddf451ebd29af199865ec196b7f422b28c
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:53:07 2021 +1100
+
+    added flex to wrapper container, fixed formatting in nav.scss
+
+commit 9213ca3b6d0d6d27e3726f849ccc035df3d0007f
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:50:58 2021 +1100
+
+    Changed socials section to nav, added section wrapper to header navs
+
+commit 2351f62a6d0da23855d5db1c27f7eaa6d04ee7e6
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:39:20 2021 +1100
+
+    Added socials to header and moved styling from footer to socials.scss
+
+commit 61886b84f1b5a92a8cc676f4b38e0195374392e0
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:33:21 2021 +1100
+
+    Added basic flex alignment and typography to main section
+
+commit 20597d3f8390c87ef6baf4c2f4127fa1dafb1149
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:12:43 2021 +1100
+
+    Formatted index.html
+
+commit 4b0febe2ffde63b18b2daf7d64a3ab950050748d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 15:09:19 2021 +1100
+
+    renamed main.scss/css to styles.scss.css
+    To allow creation of a style 'main' componant
+
+commit 89bc9205dc0f07a0cb095d558890c0ca8eeaebe4
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 14:57:57 2021 +1100
+
+    Added flexbox to array header, footer and body elements correctly on the page
+    This is primarily for when there is insufficient body information on the page to push the footer to the bottom
+
+commit efa0fd3d0f339a33bfde0f2169817dfeebaf3e99
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 13:08:33 2021 +1100
+
+    Fixed and styled footer links
+
+commit 6b52976b1e39fe9c99659c9db292291e2eeae47f
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 13:00:53 2021 +1100
+
+    Added footer
+    Note: Footer is still not fixed to bottom fo page unless the document is filled with content
+
+commit 0d65087a3bf445ef2104c769af86f7df061df8f9
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 12:59:11 2021 +1100
+
+    Added global text modifiers
+
+commit 1afe50e282baf7682af9bdcf91df393aeb2fe524
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 11:36:22 2021 +1100
+
+    Moved hr styling from nav.scss to global.scss
+
+commit 6810f2aabf7b6bab99785eaeac30be78667e0a98
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 11:20:47 2021 +1100
+
+    tweak to background box radius
+
+commit 67e07f214328768943aff6f9bfb28d1aeefa2b34
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 11:18:47 2021 +1100
+
+    Nav-completed for mobile
+
+commit f5833908c01b9798439627cf83610cb9a3e92d80
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 10:33:22 2021 +1100
+
+    Background Completed
+
+commit 090b32f2930ba48668312e0e1735f52c21e7b543
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 10:20:29 2021 +1100
+
+    Started creating background layout
+
+commit dfade87f25c18871b540332a760e34402c4f432e
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 10:19:38 2021 +1100
+
+    Created index.html skeleton
+
+commit 0fc76ad9c752af4089ebcde0a930f7ed6c3fc8d6
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Tue Mar 9 10:19:03 2021 +1100
+
+    Added Iconography Reference
+
+commit 79f7d9920fa4f5b24c8422dec8c3b86496c827f1
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 6 15:58:14 2021 +1100
+
+    Added Icons for hobbies
+
+commit c5df16529b62a03147124ec3e92e62644fe7511c
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 6 15:57:42 2021 +1100
+
+    Fixed filename typos in last commit
+
+commit 78afaf36633bd274351bed41860fc0a636d3288f
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 6 15:43:36 2021 +1100
+
+    added icon and logos for tools & languages
+
+commit 77703ed76090ec0ce7260f7ff80e1ff74739effa
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 6 13:14:57 2021 +1100
+
+    Added reference list for images
+
+commit 6cb028e0983c91e68350d1bd9316b98b6eed16e0
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Sat Mar 6 13:05:07 2021 +1100
+
+    Added images for powerpoint
+    And removed .keep file from relevant directory
+
+commit c4d833b98416afc606c506cb589832b3a944eb97
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 5 10:24:32 2021 +1100
+
+    Added Sitemap
+
+commit d3b1be6a6aa9d20e93e22132e4b0c3c8d676c98d
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Fri Mar 5 09:53:36 2021 +1100
+
+    Added .gitignore exception for references
+
+commit 469875b17f8825b6edbd4ed5379a771abace5403
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 4 15:35:56 2021 +1100
+
+    Added basic Package Files and SASS files to .gitignore
+
+commit 4e494e92fb92abadec2079eba63cf088239eb3cb
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 4 15:34:35 2021 +1100
+
+    Added Directory Structure
+    Also added basic directory map to README.md, I expect this will be removed in a later commit
+
+commit 95d2a8393e6ed4ff9795ad3f099591c38cf502cb
+Author: Ryan Wise <48581165+ryanjwise@users.noreply.github.com>
+Date:   Thu Mar 4 15:21:45 2021 +1100
+
+    Initial Commit
