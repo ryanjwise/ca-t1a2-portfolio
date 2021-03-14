@@ -10,7 +10,7 @@
       height: 25px;
       a, a:visited {
         @include link-base;
-        background-color: $colour-teritary;
+        background-color: $colour-tertiary;
       }
       a:hover {
         @include link-hover

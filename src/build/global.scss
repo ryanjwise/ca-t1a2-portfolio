@@ -6,7 +6,7 @@ $height-main: calc($height-body - 112px);
 // Colours
 $colour-background: #333745;
 $colour-foreground: #47ff4e;
-$colour-teritary: #ffba49;
+$colour-tertiary: #ffba49;
 $colour-decoration: #808782;
 $colour-hero: #b8336a;
 
@@ -31,7 +31,7 @@ $colour-hero: #b8336a;
   background-color: $colour-hero;
 }
 @mixin link-active {
-  background-color: $colour-teritary;
+  background-color: $colour-tertiary;
 }
 
 // Elements
@@ -55,7 +55,7 @@ body {
 
 
 a, a:visited {
-  color: $colour-teritary;
+  color: $colour-tertiary;
 }
 
 a:hover{
