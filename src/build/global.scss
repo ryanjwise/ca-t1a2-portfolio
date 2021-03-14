@@ -1,18 +1,20 @@
 //Calculated Variables
 $height-margin: calc(23 * 2px);
 $height-body: calc(100vh - #{$height-margin});
-$height-main: calc($height-body - 112px);
+
+// $height-main does not work, do not use.
+// $height-main: calc($height-body - 112px);
 
 // Colours
-$colour-background: #333745;
-$colour-foreground: #47ff4e;
-$colour-tertiary: #ffba49;
-$colour-decoration: #808782;
-$colour-hero: #b8336a;
+$colour-decoration: #808782; //Page border only
+$colour-background: #333745; //Background
+$colour-foreground: #47ff4e; //Foreground
+$colour-tertiary: #ffba49; //Call to action and location indicator
+$colour-hero: #b8336a; // Hover & Highlight colour
 
 // Typography
 @mixin font-header() {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   text-transform: capitalize;
   font-variant: small-caps;
   font-weight: bold;
@@ -34,6 +36,25 @@ $colour-hero: #b8336a;
   background-color: $colour-tertiary;
 }
 
+/*
+Controls Page Layout
+Ensuring the header and footer will always be at the top and bottom of the document,
+The body will always span a minimum of the full screen height
+*/
+.page-wrapper {
+  min-height: $height-body;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  main {
+    flex-grow: 1;
+  }
+  header,
+  footer {
+    flex-shrink: 0;
+  }
+}
+
 // Elements
 hr {
   color: $colour-foreground;
@@ -45,23 +66,24 @@ body {
   @include font-header();
   color: $colour-foreground;
 
-  p, {
-    font-family: 'Source Sans Pro', sans-serif;
+  p {
+    font-family: "Source Sans Pro", sans-serif;
     text-transform: none;
     font-variant: normal;
     font-weight: normal;
   }
 }
 
-
-a, a:visited {
+a,
+a:visited {
   color: $colour-tertiary;
 }
 
-a:hover{
+a:hover {
   color: $colour-hero;
-}  
+}
 
+// Define colour on highlight.
 ::selection {
   background: $colour-hero;
   color: $colour-background;

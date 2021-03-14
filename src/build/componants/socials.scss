@@ -1,8 +1,9 @@
 .socials {
+  /*Font awesome imported fonts use the i tag by default
+  If font awesome icons are no longer used an alternative method will be required*/
   i {
     font-size: 30px;
   }
-
   a,
   a:visited {
     color: $colour-foreground;

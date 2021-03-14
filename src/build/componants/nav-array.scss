@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 2%;
+    /*Styles header elements as buttons similar to nav bar*/
     .nav-btn {
       height: 30px;
       a,
@@ -26,6 +27,7 @@
       margin-top: 10px;
       max-height: 250px;
       align-self: center;
+      /*Ensure image does not overrun parent container*/
       img {
         max-height: 100%;
         max-width: 100%;
@@ -37,6 +39,10 @@
     }
   }
 }
+
+/*
+Media query enables display of image and contextual information at larger screen sizes
+*/
 @media screen and (min-width: 650px) {
   .nav-array {
     flex-direction: row;

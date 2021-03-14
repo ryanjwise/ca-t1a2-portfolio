@@ -1,4 +1,32 @@
+/*
+ Import Google fonts
+
+ Headers & Markers:
+ font-family: 'Source Code Pro', monospace;
+
+ Body & descriptions:
+ font-family: 'Source Sans Pro', sans-serif;
+*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro&display=swap");
+/*
+Controls Page Layout
+Ensuring the header and footer will always be at the top and bottom of the document,
+The body will always span a minimum of the full screen height
+*/
+.page-wrapper {
+  min-height: calc(100vh - calc(23 * 2px));
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.page-wrapper main {
+  flex-grow: 1;
+}
+.page-wrapper header,
+.page-wrapper footer {
+  flex-shrink: 0;
+}
+
 hr {
   color: #47ff4e;
   margin: 5px 10px;
@@ -19,7 +47,8 @@ body p {
   font-weight: normal;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #ffba49;
 }
 
@@ -32,26 +61,30 @@ a:hover {
   color: #333745;
 }
 
-html {
+html,
+body {
   box-sizing: border-box;
   margin: 0px;
   padding: 10px;
   width: 100%;
+}
+
+html {
   height: 100%;
   background-color: #808782;
 }
 
 body {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 10px;
   min-height: 100%;
-  width: 100%;
   background-color: #333745;
   border: 3px solid #47ff4e;
   border-radius: 30px;
 }
 
+.socials {
+  /*Font awesome imported fonts use the i tag by default
+  If font awesome icons are no longer used an alternative method will be required*/
+}
 .socials i {
   font-size: 30px;
 }
@@ -63,6 +96,9 @@ body {
   color: #b8336a;
 }
 
+/*
+Controls styling for array of logos, this is primarily seen in Skills and Hobbies sections, however is also used to array links in the project page.
+*/
 .logo-array {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +108,7 @@ body {
 }
 .logo-array .logo-array-item {
   margin: 20px 5%;
+  /*i tag styled in the event font awesome is used to display icons e.g. links */
 }
 .logo-array .logo-array-item i {
   font-size: 50px;
@@ -97,6 +134,18 @@ body {
   margin-top: 0px;
 }
 
+/*
+Used to control more complex arrays containing two or more objects in each item.
+As these arrays are typically used as navigation aids, the header is styled as a clickable button
+and unless overridden other elements are hidden on a mobile device.
+
+Breaks into 3 main componants:
+1. Header button with clickable a tag
+2. Image
+3. Contextual infomration
+
+This is used on both the projects page and the master blog page.
+*/
 .nav-array {
   margin-top: 2em;
   display: flex;
@@ -110,6 +159,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 2%;
+  /*Styles header elements as buttons similar to nav bar*/
 }
 .nav-array .nav-array-item .nav-btn {
   height: 30px;
@@ -137,6 +187,7 @@ body {
   margin-top: 10px;
   max-height: 250px;
   align-self: center;
+  /*Ensure image does not overrun parent container*/
 }
 .nav-array .nav-array-item .nav-img img {
   max-height: 100%;
@@ -147,6 +198,9 @@ body {
   display: none;
 }
 
+/*
+Media query enables display of image and contextual information at larger screen sizes
+*/
 @media screen and (min-width: 650px) {
   .nav-array {
     flex-direction: row;
@@ -169,6 +223,10 @@ body {
     flex-wrap: wrap;
   }
 }
+/*
+Provides a baseline control for repeating elements flowing vertically down the page.
+It is mostly overriden in projects.scss, and isn't used elsewhere. Some work could probably be done to refactor and remove this styling.
+*/
 .content-array {
   display: flex;
   flex-direction: column;
@@ -193,6 +251,10 @@ body {
   max-width: 100%;
 }
 
+/*
+Controls and ensures the header bar remains responsive across all display sizes.
+Will remain functional down to screen width of 150px.
+*/
 .nav-wrapper {
   align-items: center;
 }
@@ -238,6 +300,10 @@ nav li a.active {
   background-color: #ffba49;
 }
 
+/*
+Media query enables display of socials on larger devices
+and aligns nav buttons to the left.
+*/
 @media screen and (min-width: 650px) {
   .nav-wrapper {
     display: flex;
@@ -251,6 +317,10 @@ nav li a.active {
     justify-content: flex-start;
   }
 }
+/*
+Styles main body of document, similar function global, however avoids touching the header and footer elements entirely.
+Go here for general font and graphical spacing overrides.
+*/
 main,
 main.intro,
 main.content {
@@ -364,6 +434,10 @@ main.content .content .content-header {
   font-size: 20px;
 }
 
+/*
+Controls and ensures the footer bar remains responsive across all display sizes.
+Will remain functional down to screen width of 110px, however is optimal above 260px.
+*/
 footer .footer-container {
   min-height: 30px;
   padding: 0px 10px;
@@ -381,6 +455,9 @@ footer p {
     display: none;
   }
 }
+/*
+Specific overrides for the about-me page.
+*/
 #about-me .intro h2,
 #about-me .content h2 {
   margin-top: 0.5em;
@@ -412,6 +489,10 @@ footer p {
   background-color: #b8336a;
 }
 
+/*
+Specific overrides for the contacts page
+Primarily this is form formatting, if forms should appear elsewhere much of this could become a componant.
+*/
 #contact .content {
   max-width: 750px;
   margin-top: 5%;
@@ -423,6 +504,8 @@ footer p {
 #contact .content .contact-form {
   max-width: 500px;
   margin-top: 2%;
+  /*Add padding between fields*/
+  /*Styles the currently selected input box to match theme*/
 }
 #contact .content .contact-form form {
   display: flex;
@@ -475,15 +558,31 @@ footer p {
   }
 }
 
+/*
+Specific overrides for the projects page
+Heavy use of grids were employed to ensure project display was responsive across devices, unfortunately it is very specific to the display of content on this page.
+*/
+#projects {
+  /*
+  Establishes grid and arrays items
+  Mobile display is quite simple and could have been achieved easily with flexbox
+  Grid was chosen instead for simplicity in translation to larger screen sizes
+  */
+}
 #projects .description {
   text-align: justify;
 }
 #projects .project {
   display: inline-grid;
-  justify-items: start;
+  justify-items: center;
   align-items: start;
   grid-template-columns: 1fr;
   grid-template-areas: "hr        " "project-h " "img       " "about     " "link-h    " "links     ";
+  /*Selector for header*/
+  /*Selector for tech header, hidden on mobile but included here to keep grid allocations together*/
+  /*Selector for tech array*/
+  /*Selector for link header*/
+  /*Selector for link array*/
 }
 #projects .project hr {
   grid-area: hr;
@@ -520,6 +619,7 @@ footer p {
   align-self: flex-start;
 }
 
+/*Media query for tablet devices*/
 @media screen and (min-width: 650px) {
   #projects .project {
     display: inline-grid;
@@ -539,6 +639,7 @@ footer p {
     display: flex;
   }
 }
+/*Media query for large screen devices*/
 @media screen and (min-width: 1050px) {
   #projects .project {
     display: inline-grid;
@@ -558,6 +659,10 @@ footer p {
     display: flex;
   }
 }
+/*
+Specific overrides for the blog index page
+Includes overrides to nav-array.scss necessary to add datetime to the clickable links
+*/
 #blog .content .nav-array {
   flex-direction: row;
 }
@@ -641,6 +746,9 @@ footer p {
   }
 }
 
+/*
+Specific overrides for individual blog pages
+*/
 #blog-page .intro h3 {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -669,20 +777,6 @@ footer p {
     width: auto;
     display: block;
   }
-}
-
-.page-wrapper {
-  min-height: calc(100vh - calc(23 * 2px));
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-.page-wrapper main {
-  flex-grow: 1;
-}
-.page-wrapper header,
-.page-wrapper footer {
-  flex-shrink: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

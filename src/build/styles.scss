@@ -1,33 +1,90 @@
-// Import Google fonts
-// font-family: 'Source Code Pro', monospace;
-// font-family: 'Source Sans Pro', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro&display=swap');
-@import "global.scss";
-@import "componants/background.scss";
-@import "componants/socials.scss";
-@import "componants/logo-array.scss";
-@import "componants/nav-array.scss";
-@import "componants/content-array.scss";
-@import "componants/header.scss";
-@import "componants/main.scss";
-@import "componants/footer.scss";
-@import "pages/about-me.scss";
-@import "pages/contact.scss";
-@import "pages/projects.scss";
-@import "pages/blog.scss";
-@import "pages/blog-page.scss";
+/*
+ Import Google fonts
 
-//Page Layout
-.page-wrapper {
-  min-height: $height-body;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  main {
-    flex-grow: 1;
-  }
-  header,
-  footer {
-    flex-shrink: 0;
-  }
-}
+ Headers & Markers:
+ font-family: 'Source Code Pro', monospace;
+
+ Body & descriptions:
+ font-family: 'Source Sans Pro', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro&display=swap");
+
+// Holds global variables and controls master style overrides for elements (Typography, links etc.)
+@import "global.scss";
+
+//Controls the background size, colour and outline.
+@import "componants/background.scss";
+
+//Controls socials size and colour
+@import "componants/socials.scss";
+
+/*
+Controls styling for array of logos, this is primarily seen in Skills and Hobbies sections, however is also used to array links in the project page.
+*/
+@import "componants/logo-array.scss";
+
+/*
+Used to control more complex arrays containing two or more objects in each item.
+As these arrays are typically used as navigation aids, the header is styled as a clickable button
+and unless overridden other elements are hidden on a mobile device.
+
+Breaks into 3 main componants:
+1. Header button with clickable a tag
+2. Image
+3. Contextual infomration
+
+This is used on both the projects page and the master blog page.
+*/
+@import "componants/nav-array.scss";
+
+/*
+Provides a baseline control for repeating elements flowing vertically down the page.
+It is mostly overriden in projects.scss, and isn't used elsewhere. Some work could probably be done to refactor and remove this styling.
+*/
+@import "componants/content-array.scss";
+
+/*
+Controls and ensures the header bar remains responsive across all display sizes.
+Will remain functional down to screen width of 150px.
+*/
+@import "componants/header.scss";
+
+/*
+Styles main body of document, similar function global, however avoids touching the header and footer elements entirely.
+Go here for general font and graphical spacing overrides.
+*/
+@import "componants/main.scss";
+
+/*
+Controls and ensures the footer bar remains responsive across all display sizes.
+Will remain functional down to screen width of 110px, however is optimal above 260px.
+*/
+@import "componants/footer.scss";
+
+/*
+Specific overrides for the about-me page.
+*/
+@import "pages/about-me.scss";
+
+/*
+Specific overrides for the contacts page
+Primarily this is form formatting, if forms should appear elsewhere much of this could become a componant.
+*/
+@import "pages/contact.scss";
+
+/*
+Specific overrides for the projects page
+Heavy use of grids were employed to ensure project display was responsive across devices, unfortunately it is very specific to the display of content on this page.
+*/
+@import "pages/projects.scss";
+
+/*
+Specific overrides for the blog index page
+Includes overrides to nav-array.scss necessary to add datetime to the clickable links
+*/
+@import "pages/blog.scss";
+
+/*
+Specific overrides for individual blog pages
+*/
+@import "pages/blog-page.scss";

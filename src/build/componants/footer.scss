@@ -12,7 +12,7 @@ footer {
   }
 }
 
-//Toggle Socials off footer for larger screens
+//Toggle Socials off footer for larger screens as they will appear on the header instead.
 @media screen and (min-width: 650px) {
   .footer-container {
     .socials {

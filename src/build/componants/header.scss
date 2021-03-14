@@ -32,7 +32,10 @@ nav {
     }
   }
 }
-
+/*
+Media query enables display of socials on larger devices
+and aligns nav buttons to the left.
+*/
 @media screen and (min-width: 650px) {
   .nav-wrapper {
     display: flex;
