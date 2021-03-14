@@ -11,15 +11,85 @@ The site can either be opened locally using the files found in the `src` directo
 
 ### Functionality / features
 
+The site is designed to showcase existing and future work with simple access to:
+
+- Information About Me
+- An expansible list of highlight projects
+- An expansible index of blog posts
+- Contact Details/ or methods to get in touch with me
+
+It is designed to be mobile first, and responsive across mobile, tablet and desktop devices.
+
+It uses flexbox and some grids to ensure that content can be added to various arrays without additional styling requirements.
+
+- In some instances placeholder images have been used instead of screenshots. When this is the case they have been sourced using [Unsplashed.com](https://unsplash.com/), I do not own the rights to these images.
 
 ### Sitemap
 ![](./docs/portfolio-sitemap.png)
-### Screenshots
 
 ### Target audience
 
+Potential employers that may be looking to engage a junior developer and IT professional.
+
+It can be assumed that they have:
+
+- Technical knowledge in the field of information technology
+- A high expectation of professionalism and work ethic.
+
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
+Deployed on [Netlify](https://www.netlify.com/), using a front end stack including:
+
+- HTML
+- [SCSS](https://sass-lang.com/)
+
+### Screenshots
+
+#### Home
+
+##### Mobile
+
+![Mobile Screenshot: Home](./docs/screenshot-mobile-home.png)
+
+##### Desktop
+
+![Desktop Screenshot: Home](./docs/screenshot-desktop-home.png)
+
+#### Projects
+
+##### Mobile
+
+![Mobile Screenshot: Projects](./docs/screenshot-mobile-projects.png)
+##### Desktop
+
+![Desktop Screenshot: Projects](./docs/screenshot-desktop-projects.png)
+
+#### Contact
+
+##### Mobile
+
+![Mobile Screenshot: Contact](./docs/screenshot-mobile-contact.png)
+##### Desktop
+
+![Desktop Screenshot: Contact](./docs/screenshot-desktop-contact.png)
+
+#### Blog
+
+##### Mobile
+
+![Mobile Screenshot: Blog](./docs/screenshot-mobile-blog.png)
+##### Desktop
+
+![Desktop Screenshot: Blog](./docs/screenshot-desktop-blog.png)
+
+#### Blogpost
+
+##### Mobile
+
+![Mobile Screenshot: Blogpost](./docs/screenshot-mobile-blogpost.png)
+##### Desktop
+
+![Desktop Screenshot: Blogpost](./docs/screenshot-desktop-blogpost.png)
 ## Directory Map
 
 - root
