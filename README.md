@@ -1,6 +1,7 @@
 # Portfolio Site
 
-Project Description
+This project was built as a part of the Coder Academy fast track to web development course.
+The aim is to produce a portfolio site with which we can showcase our work as we progress and to help reinforce our knowledge of HTML and CSS before moving onto other languages.
 
 ## Deployment
 
@@ -8,12 +9,11 @@ The site can either be opened locally using the files found in the `src` directo
 
 ## About
 
-### Purpose
-
 ### Functionality / features
 
-### Sitemap
 
+### Sitemap
+![](./docs/portfolio-sitemap.png)
 ### Screenshots
 
 ### Target audience
@@ -56,5 +56,4 @@ The site can either be opened locally using the files found in the `src` directo
 
 - Make Header and footer fixed elements
 - make content height = screen height
-- Add Hover effect to Icons (Yellow?)
 - Animate Header
