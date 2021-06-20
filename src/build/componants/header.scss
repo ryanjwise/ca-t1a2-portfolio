@@ -12,11 +12,7 @@ nav {
     padding: 0px;
     flex-wrap: wrap;
     justify-content: center;
-    :nth-child(4){
-      display: hidden;
-    }
   }
-
   li {
     list-style: none;
     width: 100px;
